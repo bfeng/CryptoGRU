@@ -1,0 +1,13 @@
+#!/bin/bash 
+
+set -e
+
+if [ ! -d miracl ]
+then
+    echo "downloading Miracl"
+    git clone https://github.com/ladnir/miracl
+fi
+
+echo "building Mircal"
+cd miracl/miracl/source/
+bash linux64

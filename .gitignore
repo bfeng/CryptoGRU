@@ -1,0 +1,10 @@
+bin/*
+src/bin/*
+
+__pycache__
+log
+scripts/nn/dataset/
+
+.vscode
+scripts/rnn/.vscode
+scripts/rnn/*.txt
