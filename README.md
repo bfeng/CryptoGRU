@@ -21,8 +21,8 @@ This was last tested on Ubuntu 16.04 LTS and 18.04 LST
   make -j8
 ```
 
-## Build within Docer
-```
+## Build within Docker
+```bash
 docker build -t cryptogru .
 ```
 
