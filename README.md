@@ -21,6 +21,11 @@ This was last tested on Ubuntu 16.04 LTS and 18.04 LST
   make -j8
 ```
 
+## Build within Docer
+```
+docker build -t cryptogru .
+```
+
 If you want to run to run the network conversion scripts you will
 need a python interpreter and pytorch. These scripts were tested with
 Anaconda3 on a machine that had a GPU.
